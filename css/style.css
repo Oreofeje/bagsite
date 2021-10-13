@@ -6,7 +6,7 @@
 }
 body {
   font-family: "Karla", sans-serif;
-  font-weight: 700;
+  /* font-weight: 700; */
 }
 .bg-color {
   background-image: linear-gradient(to bottom right, #CBC7C4, #000000);
@@ -15,7 +15,25 @@ body {
 /* color: #FCA311; */
 background-color: #FCA311;
 }
+
+hr{
+  height: 20px !important;
+  color: grey;
+  margin: auto 0;
+}
 .hp-image {
+  background-image: url("../images/bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  font-family: chivo;
+  font-weight: 900;
+  color: #fff;
+}
+.hero-text p{
+  font-size: 3rem;
+  margin: 0 0;
+}
+.men-image {
   background-image: url("../images/hero.jpg");
   background-repeat: no-repeat;
   background-position: top;
