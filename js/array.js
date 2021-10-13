@@ -27,7 +27,7 @@ let neewBags = [
 
   {
     bagImage:'bab2',
-    name:'black Baby bag',
+    name:'blue Baby bag',
     price: '$110'
   },
 
@@ -89,7 +89,7 @@ let section2cols = document.getElementById('newest');
 let html = ' ';
 neewBags.forEach(e => {
     html += `
-        <div class="col ">
+      <div class="col ">
         <div class="card h-100 bg-grey border  border-4 border-warning rounded-top pe-0">
           <div class="card-img">
             <img src="./images/${e.bagImage}.jpg" class="card-img-top img-fluid" alt="bag">
